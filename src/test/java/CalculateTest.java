@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 class CalculateTest {
-
     @ParameterizedTest
     @MethodSource("testSumParam1PlusParam2")
     public void method1(double expected, double param1, double param2) {
